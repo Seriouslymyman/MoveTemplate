@@ -15,7 +15,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Move1"
+ToolName.Text = "Reversal Red"
  
  
 local player = game.Players.LocalPlayer
@@ -33,7 +33,7 @@ local baseButton = hotbarFrame:FindFirstChild("2").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Move2"
+ToolName.Text = "Regretful Barrage"
  
  
 local player = game.Players.LocalPlayer
@@ -51,7 +51,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Move3"
+ToolName.Text = "Repulsing kick"
  
  
 local player = game.Players.LocalPlayer
@@ -69,7 +69,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Move4"
+ToolName.Text = "Lapse Blue"
  
  
 local Players = game:GetService("Players")
@@ -93,7 +93,7 @@ local function findGuiAndSetText()
  
             if textLabel then
  
-                textLabel.Text = "Idle Death Gamble"
+                textLabel.Text = "The Honored Sorcorer"
  
             end
  
@@ -114,11 +114,11 @@ local function onAnimationPlayed(animationTrack)
     
     -- List of animations and their replacements
     local animationReplacements = {
-        [10468665991] = "rbxassetid://put your animation here",  -- Move 1
-        [10466974800] = "rbxassetid://put your animation here",  -- Move 2
-        [10471336737] = "rbxassetid://put your animation here",  -- Move 3
-        [12510170988] = "rbxassetid://put your animation here",  -- Move 4
-[12447707844] = "rbxassetid://put your animation here ult",  -- awakeing anim
+        [10468665991] = "rbxassetid://13073745835",  -- Move 1
+        [10466974800] = "rbxassetid://18716470698",  -- Move 2
+        [10471336737] = "rbxassetid://18717298618",  -- Move 3
+        [12510170988] = "rbxassetid://15121659862",  -- Move 4
+[12447707844] = "rbxassetid://18716765679",  -- awakeing anim
         [11343318134] = "rbxassetid://put your animation here",  -- Ult Move 1
         [11365563255] = "rbxassetid://put your animation here",  -- Ult Move 2
         [12983333733] = "rbxassetid://put your animation here",  -- Ult Move 3
