@@ -15,7 +15,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Move1"
+ToolName.Text = "Reversal Red"
  
  
 local player = game.Players.LocalPlayer
@@ -33,7 +33,7 @@ local baseButton = hotbarFrame:FindFirstChild("2").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Move2"
+ToolName.Text = "Jujutsu Technique"
  
  
 local player = game.Players.LocalPlayer
@@ -51,7 +51,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Move3"
+ToolName.Text = "Lapse Blue"
  
  
 local player = game.Players.LocalPlayer
@@ -69,7 +69,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Move4"
+ToolName.Text = "Light Uppercut"
  
  
 local Players = game:GetService("Players")
@@ -93,7 +93,7 @@ local function findGuiAndSetText()
  
             if textLabel then
  
-                textLabel.Text = "Idle Death Gamble"
+                textLabel.Text = "The Honored Sorcerer"
  
             end
  
@@ -114,19 +114,19 @@ local function onAnimationPlayed(animationTrack)
     
     -- List of animations and their replacements
     local animationReplacements = {
-        [10468665991] = "rbxassetid://put your animation here",  -- Move 1
-        [10466974800] = "rbxassetid://put your animation here",  -- Move 2
-        [10471336737] = "rbxassetid://put your animation here",  -- Move 3
-        [12510170988] = "rbxassetid://put your animation here",  -- Move 4
-[12447707844] = "rbxassetid://put your animation here ult",  -- awakeing anim
-        [11343318134] = "rbxassetid://put your animation here",  -- Ult Move 1
-        [11365563255] = "rbxassetid://put your animation here",  -- Ult Move 2
-        [12983333733] = "rbxassetid://put your animation here",  -- Ult Move 3
-        [13927612951] = "rbxassetid://put your animation here",  -- Ult Move 4
-        [10479335397] = "rbxassetid://put your animation here",  -- Dash
-        [0] = "rbxassetid://0",  -- Uppercut
-        [0] = "rbxassetid://0",  -- Downslam
-        [10470389827] = "rbxassetid://put your animation here"   -- Block
+        [13073745835] = "rbxassetid://13073745835",  -- Move 1
+        [18716470698] = "rbxassetid://18716470698",  -- Move 2
+        [15121659862] = "rbxassetid://15121659862",  -- Move 3
+        [18717024196] = "rbxassetid://18717024196",  -- Move 4
+[18717034991] = "rbxassetid://18717034991",  -- awakeing anim
+        [13560306510] = "rbxassetid://13560306510",  -- Ult Move 1
+        [13073745835] = "rbxassetid://13073745835",  -- Ult Move 2
+        [13071982935] = "rbxassetid://13071982935",  -- Ult Move 3
+        [18717024196] = "rbxassetid://18717024196",  -- Ult Move 4
+        [10479335397] = "rbxassetid://18715858574",  -- Dash
+        [18535946209] = "rbxassetid://18535946209",  -- Uppercut
+        [18535943546] = "rbxassetid://18535943546",  -- Downslam
+        [18564704039] = "rbxassetid://18564704039"   -- Block
     }
 
     local replacementId = animationReplacements[animationId]
